@@ -1,0 +1,311 @@
+.banner {
+    position: relative;
+    height: 700px;
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-image: url('resources/Banner Image.png');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .banner::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust alpha value for opacity (0.5 for 50% opacity) */
+  }
+  
+  .banner-content {
+    position: relative; /* Ensure content appears above the background image */
+    z-index: 1; /* Ensure content appears above the background image */
+    text-align: center;
+  }
+  
+  .banner-header-text{
+    font-size: 30px;
+    font-weight: 300;
+  }
+  .banner-header-pre {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+  }
+
+  /******/
+  .parent-container {
+    width: 75%; /* Adjust width as needed */
+    margin: auto;
+    margin-top: 30px;
+  }
+  .text-container-header{
+    font-size: 50px;
+    color: red;
+  }
+  .text-container-p{
+    font-size: 20px;
+    color: red;
+  }
+  .text-container-header1{
+    font-size: 30px;
+    color: black;
+  }
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .text-container {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .image-container {
+    width: 100%;
+    margin-top: 10px; /* Adjust spacing between text and image */
+    text-align: center;
+  }
+  
+  .image-container img {
+    max-width: 100%;
+  }
+  /****/
+  .container {
+    position: relative;
+    height: 700px;
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-image: url('resources/Vectorrr.png');
+    background-size: cover;
+    background-position: center;
+    margin-top: 50px;
+  }
+  
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 700px;
+    padding: 20px;
+  }
+  
+  .text, .image {
+    flex: 1;
+  }
+  
+  .text {
+    padding-right: 20px; /* Adjust spacing between text and image */
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .text1{
+    font-size: 90px;
+    font-weight: 700;
+  }
+  .transparent-button {
+    background-color: transparent;
+    border: 2px solid #000; /* Example border */
+    color: #ffffff; /* Text color */
+    padding: 10px 20px; /* Adjust padding as needed */
+    font-size: 20px; /* Adjust font size as needed */
+    cursor: pointer; /* Show pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Add transition effect */
+  }
+  
+  .transparent-button:hover {
+    background-color: rgba(0, 0, 0, 0.1); /* Example background color on hover */
+  }
+  
+  .image img {
+    margin-top: 30%;
+    max-width: 100%;
+    height: auto;
+    
+  }
+  /*******/
+  .event-info {
+    margin-top: 20px;
+    position: relative;
+    height: 400px;
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    margin-top: 50px;
+    background-color: rgb(255, 213, 213)
+  }
+  
+  .event-details {
+    margin-bottom: 20px;
+    font-size: 30px;
+  }
+  .span{
+    color: red;
+  }
+  .red-button {
+    background-color: red;
+    color: white;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 150px;
+    padding: 10px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+  }
+  
+  .red-button:hover {
+    background-color: darkred;
+  }
+  /***/
+  .container1 {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  .item {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .fourth-p {
+    font-size: 40px;
+    font-weight: 800;
+  }
+
+  .fourth-h {
+    font-size: 50px;
+    font-weight: 800;
+  }
+
+  .img-container {
+    overflow: hidden; /* Ensure the image stays within the container */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .img-container img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 50%; /* Make the image circular */
+  }
+
+  /***/
+  .container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .column-container {
+    display: flex;
+    width: 100%;
+  }
+
+  .column {
+    flex: 1;
+    padding: 20px;
+  }
+
+  .img-container1 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 0;
+  }
+
+  .img-container1 img {
+    width: 30%; /* Adjust width as needed */
+    border-radius: 10px; /* Add border-radius for rounded corners */
+  }
+  .img-container1 img {
+    width: 30%; /* Adjust width as needed */
+    border-radius: 10px; /* Add border-radius for rounded corners */
+    transition: transform 0.3s ease-in-out; /* Add transition for smooth effect */
+}
+
+.img-container1 img:hover {
+    transform: scale(1.1); /* Scale the image by 1.1 times on hover */
+}
+
+/****/
+
+  .container3 {
+    text-align: center;
+    height: 500px;
+    width: 75%;
+    margin: 0 auto; /* Adjust the top and bottom margin here */
+    background-color: rgb(255, 207, 207);
+  }
+.image img{
+  margin-top: 1%;
+  max-width: 100%;
+  height: auto;
+}
+  .text2{
+    font-size: 50px;
+  }
+  .email-input {
+    width: 20%;
+    padding: 10px;
+    border: 1px solid hsl(299, 100%, 91%);
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  .p{
+    font-size: small;
+  }
+  .subscribe-btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .footer {
+    margin-top: 20px;
+    background-color: #000000; /* Background color of the footer */
+    color: #fff; /* Text color */
+    padding: 20px; /* Padding around the content */
+  }
+  
+  .footer-content {
+    display: flex; /* Use flexbox layout */
+    justify-content: space-around; /* Space between elements */
+  }
+  
+  .footer-content span {
+    font-size: 16px; /* Adjust font size as needed */
+  }
+  .para-footer{
+    font-size: 30px;
+  }
+  
+  .image-row {
+    display: flex;
+    justify-content: center;
+  }
+
+  
